@@ -1,0 +1,217 @@
+/* Step 2: Import the Reset */
+@import url(./reset.css);
+/* End of Reset */
+
+
+
+html,body, main, header,section{
+    height: 100%;
+    /* width: auto; */
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.main-header-titles
+{
+    height: 50;
+    margin: 10em;
+    display:flow-root;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    color:red;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+    font-size: 60pt;
+    
+}
+header
+{
+    background-image: url(../image/goku-vageta.jpg);
+    image-resolution: 15px;
+    background-size:contain;
+    background-position: center;
+    background-color:#253237;
+    
+    border: 2px solid black;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#main-nav
+{
+    width: 100%;
+    height: 85px;
+    
+    
+}
+
+#main-nav ul
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#main-nav ul li{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-nav ul li a
+{
+    
+    font-size: 60pt;
+    
+    margin-bottom: 2em;
+  padding: 1.4em;
+  text-decoration: none;
+    color: darkorange;
+}
+
+#main-nav ul li a:hover
+{
+    border-radius: 20px;
+    
+    background-color: black;
+    transition: 0.5s;
+    color: darkgrey;
+}
+
+section
+{
+    /* width: 100vw; */
+}
+#section-1 >h3
+{
+    font-size: 60pt;
+    
+}
+#section-1 
+{
+    color: darkorange;
+    margin: auto;
+     height: 55%;
+    width: 99vw;
+    background-color:#07393c;
+}
+#section-1 #p1
+{
+    font-size: 40pt;
+    padding-left: 1em;
+}
+#div-1 h3
+{
+    padding-inline-start: 1.5em;
+    padding: 1.5em;
+    font-size: 40pt;
+    color: darkorange;
+}
+#div-1 ol li
+{
+     font-size: 50pt;
+     padding: 1em;
+}
+
+.c1
+{
+    font-size: 40pt;
+}
+.fig-1
+{
+    float: left;
+}
+
+.fig-1 img{
+    width: 700px;
+    height: 750px;
+}
+
+.main-section-2
+{
+    height: 70%;
+    width: 99vw;
+    background-color:#2c666e;
+
+}
+#section-2 .h02
+{
+    font-size: 50pt;
+    color: darkorange;
+    margin-left: 1em;
+    
+}
+
+#div-2 p
+{
+    font-size: 48pt;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#div-2 cite
+{
+    font-size: 40pt;
+}
+#div-2 .h03
+{
+    font-size: 70pt;
+    color: darkorange;
+    margin-top: 0.6em;
+}
+#div-2 ul li
+{
+    font-size: 45pt;
+}
+#section-3
+{
+    background-image: url(../image/fuB21S.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 99vw;
+    background-color:#90ddf0;
+    font-size: 50pt;
+}
+#section-3 h3
+{
+    color: red;
+    padding: 1em;
+}
+#section-3 p
+{
+    color: ghostwhite;
+    padding: 0.7em;
+}
+.ul1
+{
+    width: 100%;
+    text-align: right;
+    margin-top: 175em;
+}
+.ul1 a:hover
+{
+    border-radius: 20px;
+    
+    background-color: black;
+    transition: 0.5s;
+    color: darkgrey;
+}
+.a1
+{
+    font-size: 60pt;
+    text-align: right;
+    color:black;
+    
+}
+footer
+{
+    
+    font-size: 58pt;
+    color: red;
+    text-align: center;
+    
+}
+
+

@@ -1,0 +1,123 @@
+/* Step 2: Import the Reset */
+@import url(./reset.css);
+/* End of Reset */
+
+
+
+html,body, main, header,section
+{
+    height: 70%;
+    /* width: auto; */
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+header
+{
+    height: 200%;
+    background-color: cyan;
+    background-image: url(../image/635755.jpg);
+    background-size: cover;
+}
+#main-nav
+{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 85px;
+    text-align: center;
+}
+#main-nav ul
+{
+    width: 60%;
+    display: contents;
+    justify-content: space-between;
+    
+    
+}
+#main-nav ul li
+{    
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main-nav ul li a
+{
+    
+    font-size: 60pt;
+    padding-left: 2em;
+    margin-bottom: 1em;
+  padding: 1.4em;
+  text-decoration: none;
+    color:blue;
+    text-align: center;
+
+}
+
+#main-nav ul li a:hover
+{
+    border-radius: 20px;
+    
+    background-color: black;
+    transition: 0.5s;
+    color: darkgrey;
+}
+#main-header-titles
+{
+    font-size: 50pt;
+    padding-top: 3em;
+    color: deeppink;
+    padding-left: 1em;
+}
+main
+{
+    font-size: 45pt;
+    background-color: orange;
+}
+main h2
+{
+    color: red; 
+    font-size: 45pt;
+    padding: 1em;
+}
+main .l1
+{
+    font-size: 50pt;
+    margin-left: 2.8em;
+    padding-top: 0.7em;
+}
+main .p1
+{
+    margin-left: 1em;
+}
+main .l2
+{
+    font-size: 50pt;
+    margin-left: 8em;
+    padding-top: 2em;
+}
+main .p2
+{
+    margin-left: 8.6em;
+}
+main figure
+{
+    width: 100%;
+    
+    background-color: bisque;
+    margin-top: 1em;
+}
+main .p3
+{
+    margin-left: 1em;
+    font-size: 60pt;
+    margin-top: 2em;
+}
+footer
+{
+    font-size: 70pt;
+    color: red;
+    text-align: center;
+    margin-top: 9.5em;
+}
